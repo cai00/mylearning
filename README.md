@@ -1,2 +1,2 @@
 # mylearning
-我用来测试整个git和github的使用过程
+我用来学习测试git和github的使用过程
