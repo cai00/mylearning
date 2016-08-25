@@ -1,0 +1,21 @@
+（1）git branch 不带参数：列出本地已经存在的分支，并且在当前分支的前面加“*”号标记，例如：
+【#git branch】
+
+（2）git branch -r 列出远程分支，例如：
+【#git branch -r】
+
+（3）git branch -a 列出本地分支和远程分支，例如：
+【#git branch -a】
+
+（4）git branch 创建一个新的本地分支，需要注意，此处只是创建分支，不进行分支切换，例如：
+【#git branch newbranch2】
+
+（5）【git branch -m | -M oldbranch newbranch 重命名分支】，如果newbranch名字分支已经存在，则需要使用-M强制重命名，否则，使用-m进行重命名。
+【git branch -d | -D branchname 删除branchname分支】
+【git branch -d -r branchname 删除远程branchname分支】
+
+（6）【git init】把这个目录变成git可以管理的仓库
+ (7) 【git pull】拉取远程库的最新内容
+（8）【git add 】添加推送的内容文件
+ (9) 【git commit -m 】提交内容描述
+（10）【git push origin master】或【git push 某文件】推送至远程仓库GitHub
